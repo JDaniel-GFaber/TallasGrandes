@@ -1,0 +1,37 @@
+@media only screen and (min-width: 320px) {
+    .cont-titel-fsize {
+        font-size: 1.2rem;
+    }
+
+    .cont-subt-fsize {
+        font-size: 0.95rem;
+    }
+
+    .mar-map {
+        margin: 4rem 0 4rem 0;
+    }
+}
+
+@media only screen and (min-width: 576px) {}
+
+@media only screen and (min-width: 768px) {
+    .cont-titel-fsize {
+        font-size: 3rem;
+    }
+
+
+    .cont-subt-fsize {
+        font-size: 2.5rem;
+    }
+
+    .mar-map {
+        margin: 6.5rem 4rem 4rem 4rem;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (min-width: 1200px) {}

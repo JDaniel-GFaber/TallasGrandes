@@ -1,0 +1,120 @@
+@media only screen and (min-width: 320px) {
+
+    /****** navbar *******/
+    .logo-fontzise {
+        font-size: 0.98rem;
+    }
+
+    li>a {
+        font-size: 0.95rem;
+    }
+
+    .f-size {
+        font-size: 0.95rem;
+        font-weight: 700;
+    }
+
+    /******* footer ********/
+    footer h5 {
+        font-size: 0.7rem;
+    }
+
+    .redes-imagenes {
+        width: 2.5rem;
+    }
+
+    .footer-ubicacion-toprecht {
+        top: -40%;
+        right: -5%;
+        transform: rotate(215deg);
+    }
+
+    .footer-ubicacion-bottomrecht {
+        bottom: -40%;
+        right: -5%;
+        transform: rotate(-55deg);
+    }
+
+    .footer-ubicacion-toplinks {
+        top: -35%;
+        left: -8%;
+        transform: rotate(-215deg);
+    }
+
+    .footer-ubicacion-bottomlinks {
+        bottom: -30%;
+        left: -8%;
+        transform: rotate(55deg);
+    }
+
+    /*contactenos*/
+
+}
+
+@media only screen and (min-width: 576px) {}
+
+@media only screen and (min-width: 768px) {
+
+    /****** navbar *******/
+    .logo-fontzise {
+        font-size: 1.5rem;
+    }
+
+    li>a {
+        font-size: 1.2rem;
+    }
+
+    .f-size {
+        font-size: 1.2rem;
+        font-weight: 900;
+    }
+
+    /******* footer ********/
+    .redes-imagenes {
+        width: 3rem;
+    }
+
+    footer h5 {
+        font-size: 1rem;
+    }
+
+    .footer-ubicacion-toprecht {
+        top: -35%;
+        right: -2%;
+        transform: rotate(215deg);
+    }
+
+    .footer-ubicacion-bottomrecht {
+        bottom: -40%;
+        right: -3%;
+        transform: rotate(-55deg);
+    }
+
+    .footer-ubicacion-toplinks {
+        top: -35%;
+        left: -2%;
+        transform: rotate(-215deg);
+    }
+
+    .footer-ubicacion-bottomlinks {
+        bottom: -30%;
+        left: -2%;
+        transform: rotate(55deg);
+    }
+
+}
+
+
+@media only screen and (min-width: 992px) {
+
+    /******* footer ********/
+    .redes-imagenes {
+        width: 4rem;
+    }
+
+    footer h5 {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {}

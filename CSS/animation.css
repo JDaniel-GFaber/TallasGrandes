@@ -1,0 +1,49 @@
+.animation-line {
+    position: relative;
+
+}
+
+
+.animation-line:before {
+    position: absolute;
+    bottom: 0;
+    content: "";
+    width: 0%;
+    height: 4px;
+
+    background-color: var(--rot);
+    transition: all 200ms;
+}
+
+.animation-line:hover:before {
+    width: 100%;
+
+}
+
+.central:before {
+    left: 50%;
+}
+
+.central:before {
+    right: 50%;
+}
+
+.central:hover:before {
+    left: 0;
+}
+
+.central:before:before {
+    right: 0;
+}
+
+.move-translate {
+
+    /* Estado inicial */
+    transform: translate(0, 0);
+    transition: transform 0.8s;
+}
+
+.decoration-text:hover .move-translate {
+    /* Estado Final */
+    transform: translate(0%, 20%);
+}

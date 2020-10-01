@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700;900&display=swap');
+
+/* font-family: 'Playfair Display SC', serif; */
+/*  */
+:root {
+    --rot: #B61111;
+    --rosa: #fddfd2;
+    --weiss: #fffefe;
+}
+
+/**** atom *****/
+.cl-rot {
+    color: var(--rot);
+}
+
+.cl-rosa {
+    color: var(--rosa);
+}
+
+.cl-weiss {
+    color: var(--weiss);
+}
+
+.bgc-rot {
+    background-color: var(--rot);
+}
+
+.bgc-rosa {
+    background-color: var(--rosa);
+}
+
+.f-familie {
+    font-family: 'Playfair Display SC', serif;
+}
+
+.f-weig700 {
+    font-weight: 700;
+}
+
+.f-weig400 {
+    font-weight: 400;
+}
+
+/************ diseño **************/
+/* seccion navbar */
+.logo-fontzise {
+    font-size: 1.5rem;
+}
+
+/* li>a {
+    font-size: 1.2rem;
+} */
+
+.f-size {
+    font-size: 1.2rem;
+}
+
+.nav-links:hover {
+    text-decoration: none;
+    color: var(--rot);
+}
+
+.decoration-text:hover {
+    color: var(--rot);
+    text-decoration: none;
+}
+
+/******* footer **********/
+
+.prueba {
+    overflow: hidden;
+}
+
+.footer-content-gor {
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.gorda1 {
+    width: 82.4px;
+    height: 200px;
+    background-image: url(../imagenes/gorda1.png);
+}
+
+.gorda2 {
+    width: 82.4px;
+    height: 200px;
+    background-image: url(../imagenes/gorda2.png);
+}
+
+.gorda4 {
+    width: 126px;
+    height: 150px;
+    background-image: url(../imagenes/gorda4.png);
+}
+
+.gorda5 {
+    width: 76.8px;
+    height: 160px;
+    background-image: url(../imagenes/gorda5.png);
+}
+
+
+hr {
+    width: 90vw;
+}

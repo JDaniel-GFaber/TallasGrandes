@@ -1,0 +1,44 @@
+.position-contactenos {
+    top: 28%;
+}
+
+.img-cotacto {
+    filter: brightness(0.948);
+}
+
+.m-titel {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+.kontaktkarte {
+    height: 26vh;
+    width: 23.43vw;
+    bottom: -20%;
+}
+
+.kartenpositionierung1 {
+    left: 5%;
+}
+
+.kartenpositionierung2 {
+    left: 35%;
+}
+
+.kartenpositionierung3 {
+    right: 5%;
+}
+
+.hrcelular {
+    width: 70%;
+}
+
+.hrshowroom {
+    width: 80%;
+}
+
+.hremail {
+    width: 70%;
+}
+
